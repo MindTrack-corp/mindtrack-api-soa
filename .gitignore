@@ -1,0 +1,105 @@
+###############################
+# Java / Maven / Spring Boot
+###############################
+
+# Maven target directory
+/target/
+
+# Maven specific files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Logs
+*.log
+spring.log
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# H2 database files (if switched to file mode someday)
+*.h2.db
+*.mv.db
+
+###############################
+# IDEs / Editors
+###############################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VSCode
+.vscode/
+.history/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+###############################
+# OS Files
+###############################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+###############################
+# Environment / Security
+###############################
+
+# Environment variables files
+.env
+.env.*
+
+# Keys / secrets (just in case)
+*.key
+*.pem
+*.p12
+
+###############################
+# Node (if you add a frontend later)
+###############################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+###############################
+# Others
+###############################
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.orig
+*.old
+
